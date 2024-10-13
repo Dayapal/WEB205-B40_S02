@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+       body{
+        background-color: aquamarine;
+        background: radial-gradient(#c1d8ff, #ff0800);
+        padding: 0;
+        margin: 0;
+       }
+        h1{
+            text-align: center;
+            
+        }
+        
+        .feedback_form_box{
+            /* border: 2px solid black; */
+            width: 450px;
+            height: 630px;
+            margin: 0px 0px 30px 300px;
+            padding: 10px 0px 0px 20px;
+            background-color: rgb(244, 249, 247);
+            margin: 0px 0px 0px 450px;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            border-radius: 10px;
+            
+           
+        }
+        .input{
+            width: 400px;
+            height: 25px;
+        }
+       .button{
+     text-align: center;
+      font-size: 20px;
+      text-align: center;
+      background-color: green;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      width: 100px;
+      height: 40px;
+      margin: 0px 0px 0px 160px;
+        
+      }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1  class="ce">Feedback Form</h1>
+        <div class="feedback_form_box" >
+        <p><b>Feedback Type:</b></p>
+        <select name="select" id="select" class="input" >
+            <option value="Compliment">Compliment</option>
+            <option value="Excilient">Excilient</option>
+            <option value="Compliment">Compliment</option>
+            <option value="Compliment">Compliment</option>
+        </select>
+        <p> <b>Message:</b></p>
+        <textarea name="textarea" id="" cols="35" rows="5"></textarea>
+        <p><b>Website Rating:</b></p>
+        
+        <input type="radio" name="" id="">
+        <b>Excellent</b>
+        <input type="radio" name="" id="">
+        <b>Good</b>
+        <input type="radio" name="" id="">
+        <b>Average</b>
+        <input type="radio" name="" id="">
+        <b>Poor</b>
+        <p><b>Age (10-100)</b></p>
+        <input type="number" name="number" id="number" min="10" max="100"  class="input">
+        <p><b>Password (min. 8 characters):</b></p>
+        <input type="password" class="input">
+        <p><b>Website URL (optional)</b></p>
+        <p><input type="url" name="" id="" class="input"></p>
+        <input type="checkbox">
+        <span> <b>I agree to the terms and conditions</b></span>
+        <div ><button  class="button">Submit</button></div>
+        
+        
+
+
+        </div>
+
+    </div>
+</body>
+</html>

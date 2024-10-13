@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling a Table</title>
+    <style>
+        div{
+            border: 2px solid black;
+            width: 1000px;
+            height: 500px;
+            margin: 30px 0px 30px 90px;
+            align-items: center;
+            text-align: center;
+        }
+        table{
+            width: 950px;
+            height: 100px;
+            border: 2px solid black;
+            margin-left: 30px;
+        }
+        .heading{
+            background-color: green;
+        }
+        .TotalSum{
+            background-color: rgb(215, 213, 213);
+            text-align: left;
+            
+        }
+    </style>
+</head>
+<body>
+   
+    <div>
+        <h1>Style a Table</h1>
+        <table border="1px solid black">
+            <tr class="heading">
+                <td><b>Product Name</b></td>
+                <td><b>Quantity</b></td>
+                <td><b>Price per Unit</b></td>
+                <td><b>Description</b></td>
+                <td><b>Total Price</b></td>
+            </tr>
+            <tr>
+                <td>Product 1</td>
+                <td>2</td>
+                <td>$10</td>
+                <td>This is produce 1</td>
+                <td>$20</td>
+            </tr>
+    
+            <tr>
+                <td>Product 2</td>
+                <td>3</td>
+                <td>$20</td>
+                <td>This is produce 2</td>
+                <td>$60</td>
+            </tr>
+    
+            <tr class="TotalSum">
+                <td colspan="4"><b>Sum</b></td>
+                <td><b>$80</b></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
